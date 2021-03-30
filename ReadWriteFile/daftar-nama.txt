@@ -1,0 +1,29 @@
+Daftar Mahasiswa PENS
+#	Nrp	Nama	Jenis_kelamin
+1	4210191002	Irfan Muhammad	Laki-laki
+2	4210191003	Aryazaky Iman Fauzy	Laki-laki
+3	4210191004	Aydin Ihsan Ibrahim Nurdin	Laki-laki
+4	4210191005	Prawida Yumia	Perempuan
+5	4210191006	Khonsa Nadziroh	Perempuan
+6	4210191008	Robby Alexander	Laki-laki
+7	4210191009	Miftah Amiruddin Hakim Ganing	Laki-laki
+8	4210191010	Hikmatul Ulya	Perempuan
+9	4210191011	Mohammad Alifian Rizki Choliq	Laki-laki
+10	4210191012	Berliana Putri Indrasari	Perempuan
+11	4210191013	Marvel Natanael S	Laki-laki
+12	4210191014	Auriel Harlih Rizkinanda	Laki-laki
+13	4210191015	Vivian Azalia Anwari	Perempuan
+14	4210191016	Joane Vanesa Hadi	Perempuan
+15	4210191017	Mochammad Januar Afandi	Laki-laki
+16	4210191018	M. Dwi Febrian	Laki-laki
+17	4210191019	Amos Taruna Siahaan	Laki-laki
+18	4210191020	M Awaluddin Romadhon	Laki-laki
+19	4210191021	Intan Putri Kusuma Wardhani	Perempuan
+20	4210191022	Andika Rizky Oktavian	Laki-laki
+21	4210191023	Natan Andro Tri Arauna	Laki-laki
+22	4210191024	Andhika Arista Permana	Laki-laki
+23	4210191025	Devinindya Safitri Anggraeni	Perempuan
+24	4210191026	Siti Julekhah	Perempuan
+25	4210191027	Imam Biladi	Laki-laki
+26	4210191028	Mukrom Karunia Azza	Laki-laki
+27	4210191029	Dimas Rizky Alimul Fajri	Laki-laki
