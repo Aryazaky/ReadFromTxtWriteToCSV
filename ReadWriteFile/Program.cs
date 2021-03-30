@@ -56,12 +56,17 @@ namespace ReadWriteFile
         {
             try
             {
-                StreamWriter sw = new StreamWriter(filename);
+                StreamWriter sw = new StreamWriter(filename, true);
+                int idx = 0;
                 foreach (Mahasiswa mahasiswa in tabel_mahasiswa)
                 {
-                    sw.Write($"{i},{mahasiswa.NRP},{mahasiswa.nama},{(mahasiswa.isLaki ? "Laki-laki" : "Perempuan")}\n");
-                    Console.Write($"{i},{mahasiswa.NRP},{mahasiswa.nama},{(mahasiswa.isLaki ? "Laki-laki" : "Perempuan")}\n");
-                    i++;
+                    if (idx > 0 && !mahasiswa.Equals(tabel_mahasiswa[idx - 1]))
+                    {
+                        sw.Write($"{i},{mahasiswa.NRP},{mahasiswa.nama},{(mahasiswa.isLaki ? "Laki-laki" : "Perempuan")}\n");
+                        Console.Write($"{i},{mahasiswa.NRP},{mahasiswa.nama},{(mahasiswa.isLaki ? "Laki-laki" : "Perempuan")}\n");
+                        i++;
+                    }
+                    idx++;
                 }
                 sw.Close();
             }
@@ -137,7 +142,7 @@ namespace ReadWriteFile
             {
                 mahasiswa.isLaki = false;
             }
-            else if (matches[1].ToString().Contains("Laki-laki"))
+            else if (matches[2].ToString().Contains("Laki-laki"))
             {
                 mahasiswa.isLaki = true;
             }
